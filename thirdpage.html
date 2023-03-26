@@ -15,24 +15,31 @@
         display: block; 
         width: 50%;
         height: 100%;
-
+        display: inline-block;
+        vertical-align: middle;
+    }
+    #blurb {
+        width: 50%;
+        display: inline-block;
+        vertical-align: middle;
+        float: right;
     }
     </style>
 
-<div class="will-align-right">
 
-    <p class="quote">The walkability score in Elvan, Neersville, Britain, & Morrisonville is good. No current recommendations for improvement. However, the walkability in Taylorstown is poor and significant action should be taken to improve the area. Waterford has a fair walkability score and minor action should be taken to improve the area.
-The walkability score in Hamilton, Paeonian Springs, and Wheatland is poor. It is recommended that significant action be taken to improve the area. 
-
-The walkability score in Purcellville and Lincoln is good. No current recommendations for improvement. However, the walkability score in Hillsboro is fair. It is recommended that minor action be taken to improve the area.</p>
-<!-- <h1 class="title"> Details</h1> -->
-</div>
 
 </head>
 
 <body>
-
     <div id="map"></div>
+    <div id="blurb" class="will-align-right">
+            The walkability score in Elvan, Neersville, Britain, & Morrisonville is good. No current recommendations for improvement. However, the walkability in Taylorstown is poor and significant action should be taken to improve the area. Waterford has a fair walkability score and minor action should be taken to improve the area.
+    The walkability score in Hamilton, Paeonian Springs, and Wheatland is poor. It is recommended that significant action be taken to improve the area. 
+    
+    The walkability score in Purcellville and Lincoln is good. No current recommendations for improvement. However, the walkability score in Hillsboro is fair. It is recommended that minor action be taken to improve the area.
+
+    <!-- <h1 class="title"> Details</h1> -->
+    </div>
     <script
     
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCq7IaPGgkbdPXn_LPODHhFmuNR5O2iJyM&libraries=visualization&callback=initMap">
